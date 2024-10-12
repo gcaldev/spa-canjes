@@ -21,6 +21,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts", 
+    "**/*.ts", 
+    "**/*.tsx", 
+    ".next/types/**/*.ts", 
+    "app/canjes/OptionsList.tsx", 
+    "app/canjes/options.js"
+, "_app.js", "app/componentes/popup.js"  ],
   "exclude": ["node_modules"]
 }
+
